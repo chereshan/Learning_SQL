@@ -163,18 +163,3 @@ left join track t on t.TrackId=il.TrackId
 left join mediatype m on m.MediaTypeId=t.MediaTypeId
 group by m.MediaTypeId
 limit 1;
-
-select *
-from mediatype;
-
-
-
-
-select *
-from invoice;
-select *
-from invoiceline;
-select *
-from employee;
-select *
-from customer;
